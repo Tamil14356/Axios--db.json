@@ -1,0 +1,36 @@
+
+.Create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+}
+
+
+form{
+    border:none;
+    width: 320px;
+    height: 380px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    /* box-shadow: inset 0 0 20px; */
+    background-color: white;
+}
+
+form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    margin: 10px;
+    text-align: center;
+}
+button{
+    background-color: crimson;
+    border: none;
+    margin-right: 20px;
+}
